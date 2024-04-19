@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product details </title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/3d-style.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.5.1/css/fontawesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,700;1,600&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="acc-header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="./assets/images/logo.png" alt="" width="125px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./products.html">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="./account.html">Members</a></li>
+                    </ul>
+                </nav>
+                <a href="./cart.html"><img src="./assets/images/cart.png" alt="" width="30px" height="30px"></a>
+                <img src="./assets/images/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div> 
+    </div>     
+    <!--------------------------------------- single products details ------------------------------------>
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/gallery-1.jpg" alt="" width="100%" id="productImg">
+
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="images/gallery-1.jpg" alt="" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/gallery-2.jpg" alt="" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/gallery-3.jpg" alt="" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/gallery-4.jpg" alt="" width="100%" class="small-img">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <p>Puma Red / T-Shirt</p>
+                <h1>Puma Red T-Shirt</h1>
+                <h4>$29.99</h4>
+                <select name="" id="">
+                    <option value="">Select Size</option>
+                    <option value="">XXL</option>
+                    <option value="">XL</option>
+                    <option value="">Large</option>
+                    <option value="">Medium</option>
+                    <option value="">Small</option>
+                </select>
+                <input type="number" value="1">
+                <a href="" class="btn">Add To Cart</a>
+                <h3>Product Details <i class="fa fa-ident"></i></h3>
+                <br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio commodi veritatis saepe veniam ullam animi facere, itaque incidunt vitae dolor nobis. Unde inventore aperiam iusto? Aliquid ad ipsam odio dicta!</p>
+                
+            </div>
+        </div>
+    </div>    
+
+   <!------------------------------------ <title -----------------------------------------> 
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Related Products</h2>
+            <a href="#"><h5>View More</h5></a>
+        </div>
+    </div>
+    <!--------------------------------------- products ------------------------------------>
+    <div class="small-container">
+
+        <div class="row">
+            <div class="col-4">
+                <a href="product-details.html">    
+                <div class="card">
+                    <div class="product">
+                        <span class="number">NIKE BLACK</span>
+                        <span class="prod-name">SWEATPANTS</span>
+                        <span class="price">$5.99</span>
+                        <img src="./assets/images/jumper.png">
+                    </div>
+                    <div class="title">
+                        <h2>Nike Sweatpants</h2>
+                        <div class="rate">
+                            <i class="fa fa-star-half-alt"></i>
+                            <i class="fa fa-star-half-stroke"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>    
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div class="col-4">
+                <a href="product-details.html">
+                <div class="card">
+                    <div class="product">
+                        <span class="number">PUMA RED</span>
+                        <span class="prod-name">T-SHIRT</span>
+                        <span class="price">$29.99</span>
+                        <img src="./assets/images/tshirt1.png">
+                    </div>
+                    <div class="title">
+                        <h2>Puma T-shirt</h2>
+                        <div class="rate">
+                            <i class="fa fa-star-half-alt"></i>
+                            <i class="fa fa-star-half-stroke"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>    
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div class="col-4">
+                <a href="product-details.html">
+                <div class="card">
+                    <div class="product">
+                        <span class="number">FOSSIL</span>
+                        <span class="prod-name">WATCHES</span>
+                        <span class="price">$89.99</span>
+                        <img src="./assets/images/watch1.png">
+                    </div>
+                    <div class="title">
+                        <h2>Fossil Watch</h2>
+                        <div class="rate">
+                            <i class="fa fa-star-half-alt"></i>
+                            <i class="fa fa-star-half-stroke"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>    
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div class="col-4">
+                <a href="product-details.html">
+                <div class="card">
+                    <div class="product">
+                        <span class="number">SNEAKERS</span>
+                        <span class="prod-name">SHOES</span>
+                        <span class="price">$159.99</span>
+                        <img src="./assets/images/black-red.png">
+                    </div>
+                    <div class="title">
+                        <h2>Nike Black</h2>
+                        <div class="rate">
+                            <i class="fa fa-star-half-alt"></i>
+                            <i class="fa fa-star-half-stroke"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>    
+                    </div>
+                </div>
+                </a>
+            </div>   
+        </div>
+       
+    </div>   
+    <!--------------------------------------- footer ------------------------------------>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <div class="app-logo">
+                        <img src="./assets/images/apple-white.png" alt="app-store">
+                        <img src="./assets/images/playstore-white.png" alt="playstore">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <a href="index.html"><li>Home</li></a>
+                        <a href="products.html"><li>Products</li></a>
+                        <a href="#"><li>About</li></a>
+                        <a href="#"><li>Contact</li></a>   
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Additional Links</h3>
+                    <ul>
+                        <a href=""><li>Cart</li></a>
+                        <a href=""><li>Coupons</li></a>
+                        <a href=""><li>Return Policy</li></a>
+                        <a href=""><li>Become a Member</li></a>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Social</h3>
+                    <ul>
+                        <a href=""><li><i class="fab fa-facebook"></i></li></a>
+                        <a href=""><li><i class="fab fa-twitter"></i></li></a>
+                        <a href=""><li><i class="fab fa-instagram"></i></li></a>
+                        <a href=""><li><i class="fab fa-youtube"></i></li></a>
+                        <a href=""><li><i class="fab fa-telegram"></i></li></a>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">&copy 2024 - TheStore</p>
+        </div>
+    </div>
+    <script src="./assets/js/Vanilla-tilt.js"></script>
+    <script src="./assets/js/3d-script.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
