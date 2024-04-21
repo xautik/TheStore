@@ -181,6 +181,10 @@ small{
 .offer .col-2 p{
     font-weight: bold;
 }
+.offer .col-2 h4{
+    font-size: 50px;
+    color: var(--blue-dark)
+}
 
 /*--------------------------------------- testimonial ----------------------------------------*/
 .rating{
